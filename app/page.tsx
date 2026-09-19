@@ -82,13 +82,13 @@ export default function Home() {
       <div className="relative z-10 w-full max-w-6xl mx-auto pt-32 px-4">
         
         {/* Main Image Container */}
-        <div className="relative w-full aspect-[3/4] md:aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-white">
+        <div className="relative w-full aspect-square md:aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-white bg-white">
           <Image
             src="/main.png"
             alt="Our delicious signature lettuce wraps"
             fill
             priority 
-            className="object-cover"
+            className="object-contain md:object-cover"
           />
           
           {/* Order Now Button (Now correctly links to Menu) */}
