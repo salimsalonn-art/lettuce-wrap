@@ -82,7 +82,7 @@ export default function Home() {
       <div className="relative z-10 w-full max-w-6xl mx-auto pt-32 px-4">
         
         {/* Main Image Container */}
-        <div className="relative w-full aspect-[4/5] md:aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-white">
+        <div className="relative w-full aspect-[5/6] md:aspect-video rounded-xl overflow-hidden shadow-2xl border-4 border-white">
           <Image
             src="/main.png"
             alt="Our delicious signature lettuce wraps"
