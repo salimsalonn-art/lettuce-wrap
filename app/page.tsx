@@ -88,7 +88,7 @@ export default function Home() {
             alt="Our delicious signature lettuce wraps"
             fill
             priority 
-            className="object-cover scale-100 md:scale-95"
+            className="object-cover scale-100 md:scale-100"
           />
           
           {/* Order Now Button (Now correctly links to Menu) */}
